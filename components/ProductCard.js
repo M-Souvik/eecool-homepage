@@ -61,7 +61,7 @@ const ProductSlider = ({ products }) => {
             <div key={index} className="p-2">
               <div className="relative bg-white px-2 pb-6 pt-2 rounded border hover:shadow-md transition-all duration-200">
                 <div className="flex absolute gap-1 bg-white">
-                    <h1 className="bg-indigo-800 text-sm text-white font-semibold rounded-full px-1 py-2">50%</h1>
+                    <h1 className="bg-indigo-800 text-sm text-white font-semibold rounded-full px-1 py-2">{product.discount}%</h1>
                     <span className=" relative top-2 text-indigo-800 font-bold uppercase">Off</span>
                 </div>
                 <img
